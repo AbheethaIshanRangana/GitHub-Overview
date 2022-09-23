@@ -1,5 +1,8 @@
 name: second workflow
 
+on: 
+  push
+
 jobs:
   firstjob:
     runs-on: k8s-runner
