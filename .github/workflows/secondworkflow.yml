@@ -1,0 +1,10 @@
+name: second workflow
+
+jobs:
+  firstjob:
+    runs-on: k8s-runner
+    steps:
+    - name: firstjob script
+      shell: bash
+      run: |
+        echo Test 2nd workflow
