@@ -3,7 +3,7 @@ name: first workflow
 on:
   workflow_dispatch:
   
- jobs:
+jobs:
   firstjob:
     runs-on: self-hosted
     steps:
